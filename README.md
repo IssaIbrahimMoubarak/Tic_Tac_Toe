@@ -1,4 +1,4 @@
-Thiscode demonstrates a Q-learning agent that plays Tic-Tac-Toe. The agent learns to play the game by updating a Q-table based on the rewards it receives after each move. Below are some enhancements and corrections to make the code more robust and efficient:
+This code demonstrates a Q-learning agent that plays Tic-Tac-Toe. The agent learns to play the game by updating a Q-table based on the rewards it receives after each move. Below are some enhancements and corrections to make the code more robust and efficient:
 
 1. **Initialize Q-values Correctly**: When initializing Q-values for a new state, ensure that it uses a consistent shape. Instead of `np.zeros((3, 3))`, use a flat array or dictionary for flexibility.
 2. **Add Learning Rate Decay**: Decaying the learning rate over time can improve convergence.
